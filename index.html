@@ -1,0 +1,485 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>M&WEFTCO | Luxury Clothing & Custom Apparel</title>
+
+    <meta
+      name="description"
+      content="M&WEFTCO — Aesthetic luxury clothing and custom apparel crafted with identity, detail and purpose."
+    />
+
+    <meta
+      name="keywords"
+      content="M&WEFTCO, luxury clothing, premium apparel, custom clothing, custom tailoring"
+    />
+
+    <meta name="author" content="M&WEFTCO" />
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap");
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      html {
+        scroll-behavior: smooth;
+      }
+
+      body {
+        background: #080808;
+        color: #f4f0e8;
+        font-family: "Montserrat", sans-serif;
+      }
+
+      /* NAVBAR */
+
+      header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 22px 7%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 1000;
+
+        background: rgba(8, 8, 8, 0.82);
+        backdrop-filter: blur(12px);
+
+        border-bottom: 1px solid rgba(198, 166, 100, 0.15);
+      }
+
+      .logo {
+        font-family: "Cormorant Garamond", serif;
+        font-size: 30px;
+        letter-spacing: 5px;
+        font-weight: 600;
+        color: #d8bd82;
+      }
+
+      nav {
+        display: flex;
+        gap: 25px;
+      }
+
+      nav a {
+        color: #ddd5c5;
+        text-decoration: none;
+        font-size: 12px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        transition: 0.3s;
+      }
+
+      nav a:hover {
+        color: #d8bd82;
+      }
+
+      /* HERO */
+
+      .hero {
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+        padding: 120px 20px 80px;
+
+        background:
+          radial-gradient(
+            circle at center,
+            rgba(198, 166, 100, 0.1),
+            transparent 45%
+          ),
+          #080808;
+      }
+
+      .hero-content {
+        max-width: 900px;
+      }
+
+      .eyebrow {
+        color: #c6a664;
+        font-size: 11px;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        margin-bottom: 25px;
+      }
+
+      .hero h1 {
+        font-family: "Cormorant Garamond", serif;
+        font-size: clamp(65px, 15vw, 150px);
+        line-height: 0.85;
+        letter-spacing: 8px;
+        font-weight: 500;
+        color: #f5f1e8;
+      }
+
+      .hero h1 span {
+        color: #c6a664;
+      }
+
+      .hero p {
+        margin: 35px auto;
+        max-width: 600px;
+        color: #aaa39a;
+        font-size: 15px;
+        line-height: 1.9;
+        letter-spacing: 1px;
+      }
+
+      .gold-line {
+        width: 70px;
+        height: 1px;
+        background: #c6a664;
+        margin: 30px auto;
+      }
+
+      .btn {
+        display: inline-block;
+        padding: 15px 32px;
+
+        border: 1px solid #c6a664;
+
+        color: #d8bd82;
+        text-decoration: none;
+
+        font-size: 11px;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+
+        transition: 0.4s;
+      }
+
+      .btn:hover {
+        background: #c6a664;
+        color: #080808;
+      }
+
+      /* SECTIONS */
+
+      section {
+        padding: 110px 8%;
+        border-top: 1px solid rgba(255, 255, 255, 0.05);
+      }
+
+      .section-label {
+        color: #c6a664;
+        font-size: 10px;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+        margin-bottom: 15px;
+      }
+
+      h2 {
+        font-family: "Cormorant Garamond", serif;
+        font-size: clamp(42px, 8vw, 70px);
+        font-weight: 500;
+        color: #f3eee5;
+        margin-bottom: 25px;
+      }
+
+      .section-text {
+        max-width: 700px;
+        color: #aaa39a;
+        line-height: 1.9;
+        font-size: 15px;
+      }
+
+      /* COLLECTION */
+
+      .collection-grid {
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 18px;
+        width: 100%;
+        max-width: 100%;
+      }
+
+      .collection-card {
+        min-height: 300px;
+        padding: 35px;
+
+        min-width: 0;
+        width: 100%;
+        overflow: hidden;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+
+        border: 1px solid rgba(198, 166, 100, 0.18);
+
+        background: linear-gradient(145deg, #151515, #090909);
+
+        transition: 0.4s;
+      }
+      .collection-card img {
+        display: block;
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        object-fit: cover;
+      }
+
+      .collection-card:hover {
+        transform: translateY(-5px);
+        border-color: rgba(198, 166, 100, 0.55);
+      }
+
+      .collection-card small {
+        color: #c6a664;
+        letter-spacing: 3px;
+        font-size: 9px;
+        text-transform: uppercase;
+      }
+
+      .collection-card h3 {
+        margin-top: 10px;
+        font-family: "Cormorant Garamond", serif;
+        font-size: 34px;
+        font-weight: 500;
+      }
+
+      /* CONTACT */
+
+      .contact {
+        text-align: center;
+      }
+
+      .contact .section-text {
+        margin: auto;
+      }
+
+      /* FOOTER */
+
+      footer {
+        padding: 45px 8%;
+        text-align: center;
+        border-top: 1px solid rgba(198, 166, 100, 0.15);
+      }
+
+      footer .logo {
+        margin-bottom: 15px;
+      }
+
+      footer p {
+        color: #777;
+        font-size: 11px;
+        letter-spacing: 1px;
+      }
+
+      /* MOBILE */
+
+      @media screen and (max-width: 1200px) {
+        header {
+          padding: 18px 5%;
+        }
+
+        .logo {
+          font-size: 23px;
+          letter-spacing: 3px;
+        }
+
+        nav {
+          gap: 12px;
+        }
+
+        nav a {
+          font-size: 9px;
+          letter-spacing: 1px;
+        }
+
+        .hero {
+          padding-top: 130px;
+        }
+
+        .hero h1 {
+          letter-spacing: 4px;
+        }
+
+        .collection-grid {
+          display: grid !important;
+          grid-template-columns: minmax(0, 1fr) !important;
+          width: 100% !important;
+          max-width: 100% !important;
+          gap: 14px !important;
+        }
+
+        .collection-card {
+          width: 100% !important;
+          min-width: 0 !important;
+          min-height: 0 !important;
+          aspect-ratio: 4 / 5;
+          overflow: hidden;
+        }
+
+        .collection-card img {
+          width: 100% !important;
+          height: 100% !important;
+          max-width: 100% !important;
+          object-fit: cover !important;
+          display: block;
+        }
+
+        section {
+          padding: 80px 7%;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <div class="logo">M&WEFTCO</div>
+
+      <nav>
+        <a href="#about">About</a>
+        <a href="#collection">Collection</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <!-- HERO -->
+
+    <section class="hero">
+      <div class="hero-content">
+        <div class="eyebrow">Established 2026</div>
+
+        <h1>M&<span>WEFT</span>CO</h1>
+
+        <div class="gold-line"></div>
+
+        <p>
+          Where refined design meets individuality. Premium clothing and custom
+          apparel crafted with intention, detail and identity.
+        </p>
+
+        <a class="btn" href="#collection"> Discover Collection </a>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+
+    <section id="about">
+      <div class="section-label">The Brand</div>
+
+      <h2>
+        Crafted with<br />
+        Character.
+      </h2>
+
+      <p class="section-text">
+        M&WEFTCO is an emerging apparel and custom clothing brand focused on
+        distinctive design, refined aesthetics and attention to detail.
+      </p>
+    </section>
+
+    <!-- COLLECTION -->
+
+    <section id="collection">
+      <div class="section-label">Collections</div>
+
+      <h2>The Edit.</h2>
+
+      <p class="section-text">
+        Explore our upcoming collections and custom clothing creations.
+      </p>
+
+      <div class="collection-grid">
+        <div class="collection-card">
+          <small>01 — Collection</small>
+          <img src="images/meraj1.jpg" alt="M&WEFTCO Signature Collection" />
+          <h3>Signature</h3>
+        </div>
+
+        <div class="collection-card">
+          <small>02 — Collection</small>
+          <img src="images/meraj2.jpg" alt="M&WEFTCO Essentials Collection" />
+          <h3>Essentials</h3>
+        </div>
+
+        <div class="collection-card">
+          <small>03 — Custom</small>
+          <img src="images/meraj3.jpg" alt="M&WEFTCO Tailored Collection" />
+          <h3>Tailored</h3>
+        </div>
+
+        <div class="collection-card">
+          <small>04 — Coming Soon</small>
+          <img src="images/meraj4.jpg" alt="M&WEFTCO Future Edit Collection" />
+          <h3>Future Edit</h3>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+
+    <section id="contact" class="contact">
+      <div class="section-label">Contact</div>
+
+      <h2>Let's Create.</h2>
+
+      <p class="section-text">
+        For custom clothing, collaborations and business enquiries, connect with
+        M&WEFTCO.
+      </p>
+
+      <div style="margin-top: 35px">
+        <a
+          class="btn"
+          href="https://mail.google.com/mail/?view=cm&fs=1&to=themlabel786@gmail.com"
+          target="_blank"
+        >
+          Email Us
+        </a>
+
+        <a
+          class="btn"
+          href="https://web.whatsapp.com/send?phone=918929520956"
+          target="_blank"
+          style="margin-left: 10px"
+        >
+          WhatsApp Us
+        </a>
+      </div>
+      <div style="margin-top: 25px; text-align: center">
+        <p style="margin: 8px 0">
+          <strong>Email:</strong>
+          <a
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=themlabel786@gmail.com"
+            target="_blank"
+          >
+            themlabel786@gmail.com
+          </a>
+        </p>
+
+        <p style="margin: 8px 0">
+          <strong>WhatsApp:</strong>
+          <a
+            href="https://wa.me/918929520956"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            +91 8929520956
+          </a>
+        </p>
+      </div>
+    </section>
+
+    <footer>
+      <div class="logo">M&WEFTCO</div>
+
+      <p>© 2026 M&WEFTCO — All Rights Reserved.</p>
+    </footer>
+  </body>
+</html>
