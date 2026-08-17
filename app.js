@@ -5,14 +5,19 @@ const path = require("path");
 const PORT = process.env.PORT || 3000;
 
 const server = http.createServer((req, res) => {
-  let filePath = req.url === "/"
-    ? path.join(__dirname, "index.html")
-    : path.join(__dirname, req.url);
+  const pathname = new URL(req.url, "http://localhost").pathname;
 
-  if (!fs.existsSync(filePath)) {
+  let filePath;
+
+  if (pathname === "/") {
+    filePath = path.join(__dirname, "index.html");
+  } else {
+    filePath = path.join(__dirname, pathname);
+  }
+
+  if (!fs.existsSync(filePath) || fs.statSync(filePath).isDirectory()) {
     res.writeHead(404, { "Content-Type": "text/plain" });
-    res.end("404 - File not found");
-    return;
+    return res.end("404 - File not found");
   }
 
   const ext = path.extname(filePath);
