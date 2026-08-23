@@ -252,6 +252,50 @@ const server = http.createServer(async (req, res) => {
     });
   }
   }
+  if (req.method === "POST" && path === "/api/vera/project") {
+  try {
+    const data = await body(req);
+
+    if (!data.name) {
+      return json(res, 400, {
+        ok: false,
+        error: "Project name is required"
+      });
+    }
+
+    const agent = agents.find(a => a.id === data.agentId);
+
+    if (!agent) {
+      return json(res, 404, {
+        ok: false,
+        error: "Agent not found"
+      });
+    }
+
+    const project = {
+      id: `project_${Date.now()}`,
+      name: data.name,
+      description: data.description || "",
+      agentId: agent.id,
+      agent: agent.name,
+      createdBy: "VERA",
+      status: "active",
+      createdAt: new Date().toISOString()
+    };
+
+    memory.projects.push(project);
+
+    return json(res, 200, {
+      ok: true,
+      project
+    });
+  } catch {
+    return json(res, 400, {
+      ok: false,
+      error: "Invalid JSON"
+    });
+  }
+  }
   if (req.method === "GET" && path === "/api/vera/courses") {
     return json(res, 200, {
       ok: true,
