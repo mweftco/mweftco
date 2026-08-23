@@ -209,6 +209,49 @@ const server = http.createServer(async (req, res) => {
     }
   }
 
+  if (req.method === "POST" && path === "/api/vera/course") {
+  try {
+    const data = await body(req);
+
+    if (!data.name) {
+      return json(res, 400, {
+        ok: false,
+        error: "Course name is required"
+      });
+    }
+
+    const agent = agents.find(a => a.id === data.agentId);
+
+    if (!agent) {
+      return json(res, 404, {
+        ok: false,
+        error: "Agent not found"
+      });
+    }
+
+    const course = {
+      id: `course_${Date.now()}`,
+      name: data.name,
+      agentId: agent.id,
+      agent: agent.name,
+      createdBy: "VERA",
+      status: "active",
+      createdAt: new Date().toISOString()
+    };
+
+    memory.courses.push(course);
+
+    return json(res, 200, {
+      ok: true,
+      course
+    });
+  } catch {
+    return json(res, 400, {
+      ok: false,
+      error: "Invalid JSON"
+    });
+  }
+  }
   if (req.method === "GET" && path === "/api/vera/courses") {
     return json(res, 200, {
       ok: true,
