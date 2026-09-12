@@ -1,0 +1,28 @@
+name: AURELIA Daily Content Post
+
+on:
+  schedule:
+    - cron: '30 3 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  post-content:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install requests
+      - env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python scripts/aurelia_post.py
+      - run: |
+          git config user.name "AURELIA Bot"
+          git config user.email "aurelia@mweftco.github.io"
+          git add -A
+          git diff --cached --quiet || git commit -m "AURELIA: Daily post $(date +%Y-%m-%d)"
+          git push
