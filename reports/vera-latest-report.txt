@@ -1,33 +1,33 @@
 VERA DAILY REPORT // AURELIA CONTENT AGENT
 ==================================================
-Date: September 19, 2026 | Time: 08:11 AM
+Date: September 20, 2026 | Time: 08:43 AM
 Post #: 8
-OUTFIT: THE OLIVE FIELD JACKET
-SUBTITLE: Smart Casual
-CATEGORY: SMART CASUAL
+OUTFIT: THE DESERT LINEN LOOK
+SUBTITLE: Summer Elegance
+CATEGORY: SUMMER LUXE
 MODEL: Female Model
 --------------------------------------------------
-FULL LOOK: olive green field jacket, white oxford shirt, dark indigo jeans, brown suede chukka boots
-JACKET: olive green cotton field jacket with four pockets, button closure, military-inspired relaxed fit
-SHIRT: white oxford button-down shirt with soft collar and barrel cuffs
-TIE: no tie, casual open collar style for relaxed smart casual look
-TROUSERS: dark indigo raw denim jeans with slim fit, minimal distressing, clean hem
-SHOES: brown suede chukka boots in desert boot style with crepe rubber sole
-ACCESSORIES: canvas webbed belt, brown leather strap watch, aviator sunglasses
+FULL LOOK: beige linen suit, white linen shirt with open collar, brown leather loafers, tortoise sunglasses
+JACKET: beige unstructured linen blazer with patch pockets, half lined, relaxed summer fit
+SHIRT: white linen shirt with spread collar, mother of pearl buttons, rolled sleeves
+TIE: no tie, open collar with top button undone for relaxed summer elegance
+TROUSERS: beige linen drawstring trousers with relaxed fit and cropped ankle length
+SHOES: tan leather penny loafers in soft leather with no socks
+ACCESSORIES: tortoise shell sunglasses, woven leather belt, cream linen pocket square
 --------------------------------------------------
-FABRIC: Jacket: Waxed Cotton | Shirt: Oxford Cotton | Jeans: Raw Denim | Boots: Suede
-COLOR: Olive Green, White, Dark Indigo, Tan Brown
-AVOID: Formal shoes, bright colors, baggy loose jeans, sports sneakers with smart casual
-OCCASION: Weekend Brunch, Casual Friday, Day Out, Travel, Coffee Meeting
+FABRIC: Jacket & Trousers: 100% Irish Linen | Shirt: Lightweight Linen Blend
+COLOR: Beige, Off-White, Tan, Tortoise Brown
+AVOID: Synthetic fabrics, dark colors in summer heat, heavy formal shoes, neck tie
+OCCASION: Resort, Beach Wedding, Summer Party, Mediterranean Vacation
 --------------------------------------------------
 STATS:
-  XP Earned Today: 60
+  XP Earned Today: 50
   AURELIA Level: 1
-  AURELIA XP: 60/100
-  Daily Reach: 6046 views
-  Total Global Reach: 6046 views
+  AURELIA XP: 50/100
+  Daily Reach: 4733 views
+  Total Global Reach: 4733 views
 ==================================================
 Message for Meraj-nim (+918929520956):
-AURELIA posted today: THE OLIVE FIELD JACKET (SMART CASUAL)
+AURELIA posted today: THE DESERT LINEN LOOK (SUMMER LUXE)
 Check it at: https://mweftco.github.io/mweftco/posts/post-008.html
 ==================================================
