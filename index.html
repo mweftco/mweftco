@@ -3,26 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/png" href="logo.png" />
-    <meta name="google-site-verification" content="EBphKK2OPD9seBHNhd28ouHUXJijLTQYhx6WBT77l0w" />
-     <link rel="canonical" href="https://mweftco.onrender.com/" />
+
     <title>M&WEFTCO | Luxury Clothing & Custom Apparel</title>
 
     <meta
-  name="description"
-  content="M&WEFTCO is a luxury clothing and custom apparel brand creating premium, distinctive fashion with refined design, detail and identity."
-/>
+      name="description"
+      content="M&WEFTCO — Aesthetic luxury clothing and custom apparel crafted with identity, detail and purpose."
+    />
 
     <meta
-  name="keywords"
-  content="M&WEFTCO, luxury clothing, premium clothing, custom apparel, custom clothing, luxury fashion, premium fashion, tailored clothing, custom tailoring"
-/>
-    <meta property="og:title" content="M&WEFTCO | Luxury Clothing & Custom Apparel" />
-<meta property="og:description" content="M&WEFTCO — Premium clothing and custom apparel crafted with refined design, detail and identity." />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://mweftco.onrender.com/" />
-<meta property="og:image" content="https://mweftco.onrender.com/logo.png" />
-<meta property="og:image:alt" content="M&WEFTCO Luxury Clothing" />
+      name="keywords"
+      content="M&WEFTCO, luxury clothing, premium apparel, custom clothing, custom tailoring"
+    />
 
     <meta name="author" content="M&WEFTCO" />
 
@@ -65,10 +57,11 @@
       }
 
       .logo {
-  width: 170px;
-  height: auto;
-  display: block;
-  object-fit: contain;
+        font-family: "Cormorant Garamond", serif;
+        font-size: 30px;
+        letter-spacing: 5px;
+        font-weight: 600;
+        color: #d8bd82;
       }
 
       nav {
@@ -79,7 +72,7 @@
       nav a {
         color: #ddd5c5;
         text-decoration: none;
-        font-size: 11px;
+        font-size: 12px;
         letter-spacing: 2px;
         text-transform: uppercase;
         transition: 0.3s;
@@ -347,7 +340,7 @@
 
   <body>
     <header>
-      <img class="logo" src="logo.png" alt="M&WEFTCO">
+      <div class="logo">M&WEFTCO</div>
 
       <nav>
         <a href="#about">About</a>
@@ -402,31 +395,13 @@
         Explore our upcoming collections and custom clothing creations.
       </p>
 
-      <div class="collection-grid">
-        <div class="collection-card">
-          <small>01 — Collection</small>
-          <img src="meraj1.jpg" alt="M&WEFTCO Signature Collection" />
-          <h3>Signature</h3>
-        </div>
-
-        <div class="collection-card">
-          <small>02 — Collection</small>
-          <img src="meraj2.jpg" alt="M&WEFTCO Essentials Collection" />
-          <h3>Essentials</h3>
-        </div>
-
-        <div class="collection-card">
-          <small>03 — Custom</small>
-          <img src="meraj3.jpg" alt="M&WEFTCO Tailored Collection" />
-          <h3>Tailored</h3>
-        </div>
-
-        <div class="collection-card">
-          <small>04 — Coming Soon</small>
-          <img src="meraj4.jpg" alt="M&WEFTCO Future Edit Collection" />
-          <h3>Future Edit</h3>
-        </div>
+      
+      <div class="product-toolbar">
+        <button class="btn" id="addProductBtn" type="button">Add Product</button>
+        <button class="btn" id="resetProductsBtn" type="button">Reset Demo</button>
       </div>
+
+      <div class="collection-grid" id="productGrid"></div>
     </section>
 
     <!-- CONTACT -->
@@ -452,7 +427,7 @@
 
         <a
           class="btn"
-          href="https://wa.me/918929520956"
+          href="https://web.whatsapp.com/send?phone=918929520956"
           target="_blank"
           style="margin-left: 10px"
         >
@@ -489,52 +464,148 @@
       <p>© 2026 M&WEFTCO — All Rights Reserved.</p>
     </footer>
   
-<!-- AURELIA POSTS -->
-<div style="max-width:800px; margin:40px auto; padding:0 20px;">
-  <div style="font-family:'Orbitron',sans-serif; font-size:14px; color:var(--cyan); letter-spacing:3px; margin-bottom:20px;">LATEST FROM AURELIA</div>
-  <div id="aurelia-posts">
-    <a href="posts/post-008.html" style="display:block; background:rgba(10,22,45,0.95); border:1px solid rgba(0,100,200,0.12); border-radius:10px; overflow:hidden; text-decoration:none; color:inherit; transition:all 0.2s; margin-bottom:12px;" onmouseover="this.style.borderColor='rgba(0,180,255,0.3)'" onmouseout="this.style.borderColor='rgba(0,100,200,0.12)'"><div style="height:180px; background-image:url(https://image.pollinations.ai/prompt/DSLR%20camera%20photography%2C%20Canon%20EOS%20R5%2C%2085mm%20f/1.2%20lens%2C%20professional%20studio%20lighting%2C%20softbox%20and%20rim%20light%2C%20shallow%20depth%20of%20field%2C%20bokeh%20background%2C%20high%20resolution%208K%2C%20sharp%20focus%20on%20subject%2C%20fashion%20editorial%20shot%2C%20Vogue%20style%2C%20fashion%20model%2C%20professional%20photoshoot%2C%20handsome%20South%20Asian%20male%20model%2C%20full%20body%20shot%20wearing%20brown%20herringbone%20tweed%20blazer%2C%20cream%20merino%20sweater%2C%20olive%20corduroy%20trousers%2C%20brown%20brogue%20boots%2C%20dark%20grey%20studio%20backdrop%2C%20dramatic%20side%20lighting?width=1024&height=1024&seed=242927&nologo=true&enhance=true); background-size:cover; background-position:center top;"></div><div style="padding:16px;"><div style="font-size:10px; color:var(--dim); letter-spacing:1px; margin-bottom:4px;">October 04, 2026 // EDITORIAL</div><div style="font-size:15px; color:#fff; font-weight:600; margin-bottom:6px;">THE TWEED HERITAGE</div><span style="font-size:9px; padding:3px 10px; border-radius:12px; background:rgba(0,100,200,0.08); border:1px solid rgba(0,140,255,0.1); color:var(--cyan); letter-spacing:1px;">#HERITAGE</span></div></a>
-    <a href="posts/post-008.html" style="display:block; background:rgba(10,22,45,0.95); border:1px solid rgba(0,100,200,0.12); border-radius:10px; overflow:hidden; text-decoration:none; color:inherit; transition:all 0.2s; margin-bottom:12px;" onmouseover="this.style.borderColor='rgba(0,180,255,0.3)'" onmouseout="this.style.borderColor='rgba(0,100,200,0.12)'"><div style="height:180px; background-image:url(https://image.pollinations.ai/prompt/DSLR%20camera%20photography%2C%20Canon%20EOS%20R5%2C%2085mm%20f/1.2%20lens%2C%20professional%20studio%20lighting%2C%20softbox%20and%20rim%20light%2C%20shallow%20depth%20of%20field%2C%20bokeh%20background%2C%20high%20resolution%208K%2C%20sharp%20focus%20on%20subject%2C%20fashion%20editorial%20shot%2C%20Vogue%20style%2C%20fashion%20model%2C%20professional%20photoshoot%2C%20handsome%20South%20Asian%20male%20model%2C%20full%20body%20shot%20wearing%20black%20embroidered%20sherwani%20with%20gold%20zari%20work%2C%20matching%20churidar%2C%20black%20embroidered%20mojari%20shoes%2C%20dark%20grey%20studio%20backdrop%2C%20dramatic%20side%20lighting?width=1024&height=1024&seed=946167&nologo=true&enhance=true); background-size:cover; background-position:center top;"></div><div style="padding:16px;"><div style="font-size:10px; color:var(--dim); letter-spacing:1px; margin-bottom:4px;">October 03, 2026 // EDITORIAL</div><div style="font-size:15px; color:#fff; font-weight:600; margin-bottom:6px;">THE MODERN SHERWANI</div><span style="font-size:9px; padding:3px 10px; border-radius:12px; background:rgba(0,100,200,0.08); border:1px solid rgba(0,140,255,0.1); color:var(--cyan); letter-spacing:1px;">#ETHNIC ROYAL</span></div></a>
-    <a href="posts/post-008.html" style="display:block; background:rgba(10,22,45,0.95); border:1px solid rgba(0,100,200,0.12); border-radius:10px; overflow:hidden; text-decoration:none; color:inherit; transition:all 0.2s; margin-bottom:12px;" onmouseover="this.style.borderColor='rgba(0,180,255,0.3)'" onmouseout="this.style.borderColor='rgba(0,100,200,0.12)'"><div style="height:180px; background-image:url(https://image.pollinations.ai/prompt/DSLR%20camera%20photography%2C%20Canon%20EOS%20R5%2C%2085mm%20f/1.2%20lens%2C%20professional%20studio%20lighting%2C%20softbox%20and%20rim%20light%2C%20shallow%20depth%20of%20field%2C%20bokeh%20background%2C%20high%20resolution%208K%2C%20sharp%20focus%20on%20subject%2C%20fashion%20editorial%20shot%2C%20Vogue%20style%2C%20fashion%20model%2C%20professional%20photoshoot%2C%20tall%20athletic%20Black%20male%20model%2C%20full%20body%20shot%20wearing%20burgundy%20velvet%20blazer%2C%20black%20fitted%20turtleneck%2C%20black%20tailored%20trousers%2C%20black%20monk%20strap%20shoes%2C%20dark%20grey%20studio%20backdrop%2C%20dramatic%20side%20lighting?width=1024&height=1024&seed=492428&nologo=true&enhance=true); background-size:cover; background-position:center top;"></div><div style="padding:16px;"><div style="font-size:10px; color:var(--dim); letter-spacing:1px; margin-bottom:4px;">October 02, 2026 // EDITORIAL</div><div style="font-size:15px; color:#fff; font-weight:600; margin-bottom:6px;">THE BURGUNDY VELVET</div><span style="font-size:9px; padding:3px 10px; border-radius:12px; background:rgba(0,100,200,0.08); border:1px solid rgba(0,140,255,0.1); color:var(--cyan); letter-spacing:1px;">#STATEMENT</span></div></a>
-    <a href="posts/post-008.html" style="display:block; background:rgba(10,22,45,0.95); border:1px solid rgba(0,100,200,0.12); border-radius:10px; overflow:hidden; text-decoration:none; color:inherit; transition:all 0.2s; margin-bottom:12px;" onmouseover="this.style.borderColor='rgba(0,180,255,0.3)'" onmouseout="this.style.borderColor='rgba(0,100,200,0.12)'"><div style="height:180px; background-image:url(https://image.pollinations.ai/prompt/DSLR%20camera%20photography%2C%20Canon%20EOS%20R5%2C%2085mm%20f/1.2%20lens%2C%20professional%20studio%20lighting%2C%20softbox%20and%20rim%20light%2C%20shallow%20depth%20of%20field%2C%20bokeh%20background%2C%20high%20resolution%208K%2C%20sharp%20focus%20on%20subject%2C%20fashion%20editorial%20shot%2C%20Vogue%20style%2C%20fashion%20model%2C%20professional%20photoshoot%2C%20elegant%20female%20fashion%20model%2C%20full%20body%20shot%20wearing%20beige%20linen%20suit%2C%20white%20linen%20shirt%20with%20open%20collar%2C%20brown%20leather%20loafers%2C%20tortoise%20sunglasses%2C%20dark%20grey%20studio%20backdrop%2C%20dramatic%20side%20lighting?width=1024&height=1024&seed=543660&nologo=true&enhance=true); background-size:cover; background-position:center top;"></div><div style="padding:16px;"><div style="font-size:10px; color:var(--dim); letter-spacing:1px; margin-bottom:4px;">October 01, 2026 // EDITORIAL</div><div style="font-size:15px; color:#fff; font-weight:600; margin-bottom:6px;">THE DESERT LINEN LOOK</div><span style="font-size:9px; padding:3px 10px; border-radius:12px; background:rgba(0,100,200,0.08); border:1px solid rgba(0,140,255,0.1); color:var(--cyan); letter-spacing:1px;">#SUMMER LUXE</span></div></a>
-    <a href="posts/post-008.html" style="display:block; background:rgba(10,22,45,0.95); border:1px solid rgba(0,100,200,0.12); border-radius:10px; overflow:hidden; text-decoration:none; color:inherit; transition:all 0.2s; margin-bottom:12px;" onmouseover="this.style.borderColor='rgba(0,180,255,0.3)'" onmouseout="this.style.borderColor='rgba(0,100,200,0.12)'"><div style="height:180px; background-image:url(https://image.pollinations.ai/prompt/DSLR%20camera%20photography%2C%20Canon%20EOS%20R5%2C%2085mm%20f/1.2%20lens%2C%20professional%20studio%20lighting%2C%20softbox%20and%20rim%20light%2C%20shallow%20depth%20of%20field%2C%20bokeh%20background%2C%20high%20resolution%208K%2C%20sharp%20focus%20on%20subject%2C%20fashion%20editorial%20shot%2C%20Vogue%20style%2C%20fashion%20model%2C%20professional%20photoshoot%2C%20elegant%20female%20fashion%20model%2C%20full%20body%20shot%20wearing%20black%20leather%20biker%20jacket%2C%20white%20fitted%20t-shirt%2C%20black%20raw%20denim%20jeans%2C%20black%20chelsea%20boots%2C%20dark%20grey%20studio%20backdrop%2C%20dramatic%20side%20lighting?width=1024&height=1024&seed=485245&nologo=true&enhance=true); background-size:cover; background-position:center top;"></div><div style="padding:16px;"><div style="font-size:10px; color:var(--dim); letter-spacing:1px; margin-bottom:4px;">September 30, 2026 // EDITORIAL</div><div style="font-size:15px; color:#fff; font-weight:600; margin-bottom:6px;">THE ALL BLACK EDGE</div><span style="font-size:9px; padding:3px 10px; border-radius:12px; background:rgba(0,100,200,0.08); border:1px solid rgba(0,140,255,0.1); color:var(--cyan); letter-spacing:1px;">#EDGY MINIMAL</span></div></a>
-    <a href="posts/post-008.html" style="display:block; background:rgba(10,22,45,0.95); border:1px solid rgba(0,100,200,0.12); border-radius:10px; overflow:hidden; text-decoration:none; color:inherit; transition:all 0.2s; margin-bottom:12px;" onmouseover="this.style.borderColor='rgba(0,180,255,0.3)'" onmouseout="this.style.borderColor='rgba(0,100,200,0.12)'"><div style="height:180px; background-image:url(https://image.pollinations.ai/prompt/DSLR%20camera%20photography%2C%20Canon%20EOS%20R5%2C%2085mm%20f/1.2%20lens%2C%20professional%20studio%20lighting%2C%20softbox%20and%20rim%20light%2C%20shallow%20depth%20of%20field%2C%20bokeh%20background%2C%20high%20resolution%208K%2C%20sharp%20focus%20on%20subject%2C%20fashion%20editorial%20shot%2C%20Vogue%20style%2C%20fashion%20model%2C%20professional%20photoshoot%2C%20elegant%20female%20fashion%20model%2C%20full%20body%20shot%20wearing%20burgundy%20velvet%20blazer%2C%20black%20fitted%20turtleneck%2C%20black%20tailored%20trousers%2C%20black%20monk%20strap%20shoes%2C%20dark%20grey%20studio%20backdrop%2C%20dramatic%20side%20lighting?width=1024&height=1024&seed=237869&nologo=true&enhance=true); background-size:cover; background-position:center top;"></div><div style="padding:16px;"><div style="font-size:10px; color:var(--dim); letter-spacing:1px; margin-bottom:4px;">September 29, 2026 // EDITORIAL</div><div style="font-size:15px; color:#fff; font-weight:600; margin-bottom:6px;">THE BURGUNDY VELVET</div><span style="font-size:9px; padding:3px 10px; border-radius:12px; background:rgba(0,100,200,0.08); border:1px solid rgba(0,140,255,0.1); color:var(--cyan); letter-spacing:1px;">#STATEMENT</span></div></a>
-    <a href="posts/post-008.html" style="display:block; background:rgba(10,22,45,0.95); border:1px solid rgba(0,100,200,0.12); border-radius:10px; overflow:hidden; text-decoration:none; color:inherit; transition:all 0.2s; margin-bottom:12px;" onmouseover="this.style.borderColor='rgba(0,180,255,0.3)'" onmouseout="this.style.borderColor='rgba(0,100,200,0.12)'"><div style="height:180px; background-image:url(https://image.pollinations.ai/prompt/DSLR%20camera%20photography%2C%20Canon%20EOS%20R5%2C%2085mm%20f/1.2%20lens%2C%20professional%20studio%20lighting%2C%20softbox%20and%20rim%20light%2C%20shallow%20depth%20of%20field%2C%20bokeh%20background%2C%20high%20resolution%208K%2C%20sharp%20focus%20on%20subject%2C%20fashion%20editorial%20shot%2C%20Vogue%20style%2C%20fashion%20model%2C%20professional%20photoshoot%2C%20tall%20athletic%20Black%20male%20model%2C%20full%20body%20shot%20wearing%20burgundy%20velvet%20blazer%2C%20black%20fitted%20turtleneck%2C%20black%20tailored%20trousers%2C%20black%20monk%20strap%20shoes%2C%20dark%20grey%20studio%20backdrop%2C%20dramatic%20side%20lighting?width=1024&height=1024&seed=378534&nologo=true&enhance=true); background-size:cover; background-position:center top;"></div><div style="padding:16px;"><div style="font-size:10px; color:var(--dim); letter-spacing:1px; margin-bottom:4px;">September 28, 2026 // EDITORIAL</div><div style="font-size:15px; color:#fff; font-weight:600; margin-bottom:6px;">THE BURGUNDY VELVET</div><span style="font-size:9px; padding:3px 10px; border-radius:12px; background:rgba(0,100,200,0.08); border:1px solid rgba(0,140,255,0.1); color:var(--cyan); letter-spacing:1px;">#STATEMENT</span></div></a>
-    <a href="posts/post-008.html" style="display:block; background:rgba(10,22,45,0.95); border:1px solid rgba(0,100,200,0.12); border-radius:10px; overflow:hidden; text-decoration:none; color:inherit; transition:all 0.2s; margin-bottom:12px;" onmouseover="this.style.borderColor='rgba(0,180,255,0.3)'" onmouseout="this.style.borderColor='rgba(0,100,200,0.12)'"><div style="height:180px; background-image:url(https://image.pollinations.ai/prompt/DSLR%20camera%20photography%2C%20Canon%20EOS%20R5%2C%2085mm%20f/1.2%20lens%2C%20professional%20studio%20lighting%2C%20softbox%20and%20rim%20light%2C%20shallow%20depth%20of%20field%2C%20bokeh%20background%2C%20high%20resolution%208K%2C%20sharp%20focus%20on%20subject%2C%20fashion%20editorial%20shot%2C%20Vogue%20style%2C%20fashion%20model%2C%20professional%20photoshoot%2C%20tall%20athletic%20Black%20male%20model%2C%20full%20body%20shot%20wearing%20black%20embroidered%20sherwani%20with%20gold%20zari%20work%2C%20matching%20churidar%2C%20black%20embroidered%20mojari%20shoes%2C%20dark%20grey%20studio%20backdrop%2C%20dramatic%20side%20lighting?width=1024&height=1024&seed=907079&nologo=true&enhance=true); background-size:cover; background-position:center top;"></div><div style="padding:16px;"><div style="font-size:10px; color:var(--dim); letter-spacing:1px; margin-bottom:4px;">September 27, 2026 // EDITORIAL</div><div style="font-size:15px; color:#fff; font-weight:600; margin-bottom:6px;">THE MODERN SHERWANI</div><span style="font-size:9px; padding:3px 10px; border-radius:12px; background:rgba(0,100,200,0.08); border:1px solid rgba(0,140,255,0.1); color:var(--cyan); letter-spacing:1px;">#ETHNIC ROYAL</span></div></a>
-    <a href="posts/post-008.html" style="display:block; background:rgba(10,22,45,0.95); border:1px solid rgba(0,100,200,0.12); border-radius:10px; overflow:hidden; text-decoration:none; color:inherit; transition:all 0.2s; margin-bottom:12px;" onmouseover="this.style.borderColor='rgba(0,180,255,0.3)'" onmouseout="this.style.borderColor='rgba(0,100,200,0.12)'"><div style="height:180px; background-image:url(https://image.pollinations.ai/prompt/DSLR%20camera%20photography%2C%20Canon%20EOS%20R5%2C%2085mm%20f/1.2%20lens%2C%20professional%20studio%20lighting%2C%20softbox%20and%20rim%20light%2C%20shallow%20depth%20of%20field%2C%20bokeh%20background%2C%20high%20resolution%208K%2C%20sharp%20focus%20on%20subject%2C%20fashion%20editorial%20shot%2C%20Vogue%20style%2C%20fashion%20model%2C%20professional%20photoshoot%2C%20elegant%20female%20fashion%20model%2C%20full%20body%20shot%20wearing%20navy%20double-breasted%20suit%2C%20light%20pink%20dress%20shirt%2C%20navy%20silk%20pocket%20square%2C%20brown%20wholecut%20shoes%2C%20dark%20grey%20studio%20backdrop%2C%20dramatic%20side%20lighting?width=1024&height=1024&seed=714634&nologo=true&enhance=true); background-size:cover; background-position:center top;"></div><div style="padding:16px;"><div style="font-size:10px; color:var(--dim); letter-spacing:1px; margin-bottom:4px;">September 26, 2026 // EDITORIAL</div><div style="font-size:15px; color:#fff; font-weight:600; margin-bottom:6px;">THE DOUBLE BREASTED NAVY</div><span style="font-size:9px; padding:3px 10px; border-radius:12px; background:rgba(0,100,200,0.08); border:1px solid rgba(0,140,255,0.1); color:var(--cyan); letter-spacing:1px;">#POWER SUIT</span></div></a>
-    <a href="posts/post-008.html" style="display:block; background:rgba(10,22,45,0.95); border:1px solid rgba(0,100,200,0.12); border-radius:10px; overflow:hidden; text-decoration:none; color:inherit; transition:all 0.2s; margin-bottom:12px;" onmouseover="this.style.borderColor='rgba(0,180,255,0.3)'" onmouseout="this.style.borderColor='rgba(0,100,200,0.12)'"><div style="height:180px; background-image:url(https://image.pollinations.ai/prompt/DSLR%20camera%20photography%2C%20Canon%20EOS%20R5%2C%2085mm%20f/1.2%20lens%2C%20professional%20studio%20lighting%2C%20softbox%20and%20rim%20light%2C%20shallow%20depth%20of%20field%2C%20bokeh%20background%2C%20high%20resolution%208K%2C%20sharp%20focus%20on%20subject%2C%20fashion%20editorial%20shot%2C%20Vogue%20style%2C%20fashion%20model%2C%20professional%20photoshoot%2C%20handsome%20South%20Asian%20male%20model%2C%20full%20body%20shot%20wearing%20beige%20linen%20suit%2C%20white%20linen%20shirt%20with%20open%20collar%2C%20brown%20leather%20loafers%2C%20tortoise%20sunglasses%2C%20dark%20grey%20studio%20backdrop%2C%20dramatic%20side%20lighting?width=1024&height=1024&seed=373575&nologo=true&enhance=true); background-size:cover; background-position:center top;"></div><div style="padding:16px;"><div style="font-size:10px; color:var(--dim); letter-spacing:1px; margin-bottom:4px;">September 25, 2026 // EDITORIAL</div><div style="font-size:15px; color:#fff; font-weight:600; margin-bottom:6px;">THE DESERT LINEN LOOK</div><span style="font-size:9px; padding:3px 10px; border-radius:12px; background:rgba(0,100,200,0.08); border:1px solid rgba(0,140,255,0.1); color:var(--cyan); letter-spacing:1px;">#SUMMER LUXE</span></div></a>
-    <a href="posts/post-008.html" style="display:block; background:rgba(10,22,45,0.95); border:1px solid rgba(0,100,200,0.12); border-radius:10px; overflow:hidden; text-decoration:none; color:inherit; transition:all 0.2s; margin-bottom:12px;" onmouseover="this.style.borderColor='rgba(0,180,255,0.3)'" onmouseout="this.style.borderColor='rgba(0,100,200,0.12)'"><div style="height:180px; background-image:url(https://image.pollinations.ai/prompt/DSLR%20camera%20photography%2C%20Canon%20EOS%20R5%2C%2085mm%20f/1.2%20lens%2C%20professional%20studio%20lighting%2C%20softbox%20and%20rim%20light%2C%20shallow%20depth%20of%20field%2C%20bokeh%20background%2C%20high%20resolution%208K%2C%20sharp%20focus%20on%20subject%2C%20fashion%20editorial%20shot%2C%20Vogue%20style%2C%20fashion%20model%2C%20professional%20photoshoot%2C%20tall%20athletic%20Black%20male%20model%2C%20full%20body%20shot%20wearing%20cream%20white%20dinner%20jacket%2C%20black%20dress%20trousers%2C%20black%20bow%20tie%2C%20black%20patent%20shoes%2C%20black%20cummerbund%2C%20dark%20grey%20studio%20backdrop%2C%20dramatic%20side%20lighting?width=1024&height=1024&seed=406987&nologo=true&enhance=true); background-size:cover; background-position:center top;"></div><div style="padding:16px;"><div style="font-size:10px; color:var(--dim); letter-spacing:1px; margin-bottom:4px;">September 24, 2026 // EDITORIAL</div><div style="font-size:15px; color:#fff; font-weight:600; margin-bottom:6px;">THE CREAM TUXEDO</div><span style="font-size:9px; padding:3px 10px; border-radius:12px; background:rgba(0,100,200,0.08); border:1px solid rgba(0,140,255,0.1); color:var(--cyan); letter-spacing:1px;">#SUMMER BLACK TIE</span></div></a>
-    <a href="posts/post-008.html" style="display:block; background:rgba(10,22,45,0.95); border:1px solid rgba(0,100,200,0.12); border-radius:10px; overflow:hidden; text-decoration:none; color:inherit; transition:all 0.2s; margin-bottom:12px;" onmouseover="this.style.borderColor='rgba(0,180,255,0.3)'" onmouseout="this.style.borderColor='rgba(0,100,200,0.12)'"><div style="height:180px; background-image:url(https://image.pollinations.ai/prompt/DSLR%20camera%20photography%2C%20Canon%20EOS%20R5%2C%2085mm%20f/1.2%20lens%2C%20professional%20studio%20lighting%2C%20softbox%20and%20rim%20light%2C%20shallow%20depth%20of%20field%2C%20bokeh%20background%2C%20high%20resolution%208K%2C%20sharp%20focus%20on%20subject%2C%20fashion%20editorial%20shot%2C%20Vogue%20style%2C%20fashion%20model%2C%20professional%20photoshoot%2C%20tall%20athletic%20White%20male%20model%2C%20full%20body%20shot%20wearing%20cream%20white%20dinner%20jacket%2C%20black%20dress%20trousers%2C%20black%20bow%20tie%2C%20black%20patent%20shoes%2C%20black%20cummerbund%2C%20dark%20grey%20studio%20backdrop%2C%20dramatic%20side%20lighting?width=1024&height=1024&seed=323092&nologo=true&enhance=true); background-size:cover; background-position:center top;"></div><div style="padding:16px;"><div style="font-size:10px; color:var(--dim); letter-spacing:1px; margin-bottom:4px;">September 23, 2026 // EDITORIAL</div><div style="font-size:15px; color:#fff; font-weight:600; margin-bottom:6px;">THE CREAM TUXEDO</div><span style="font-size:9px; padding:3px 10px; border-radius:12px; background:rgba(0,100,200,0.08); border:1px solid rgba(0,140,255,0.1); color:var(--cyan); letter-spacing:1px;">#SUMMER BLACK TIE</span></div></a>
-    <a href="posts/post-008.html" style="display:block; background:rgba(10,22,45,0.95); border:1px solid rgba(0,100,200,0.12); border-radius:10px; overflow:hidden; text-decoration:none; color:inherit; transition:all 0.2s; margin-bottom:12px;" onmouseover="this.style.borderColor='rgba(0,180,255,0.3)'" onmouseout="this.style.borderColor='rgba(0,100,200,0.12)'"><div style="height:180px; background-image:url(https://image.pollinations.ai/prompt/DSLR%20camera%20photography%2C%20Canon%20EOS%20R5%2C%2085mm%20f/1.2%20lens%2C%20professional%20studio%20lighting%2C%20softbox%20and%20rim%20light%2C%20shallow%20depth%20of%20field%2C%20bokeh%20background%2C%20high%20resolution%208K%2C%20sharp%20focus%20on%20subject%2C%20fashion%20editorial%20shot%2C%20Vogue%20style%2C%20fashion%20model%2C%20professional%20photoshoot%2C%20handsome%20South%20Asian%20male%20model%2C%20full%20body%20shot%20wearing%20beige%20linen%20suit%2C%20white%20linen%20shirt%20with%20open%20collar%2C%20brown%20leather%20loafers%2C%20tortoise%20sunglasses%2C%20dark%20grey%20studio%20backdrop%2C%20dramatic%20side%20lighting?width=1024&height=1024&seed=505428&nologo=true&enhance=true); background-size:cover; background-position:center top;"></div><div style="padding:16px;"><div style="font-size:10px; color:var(--dim); letter-spacing:1px; margin-bottom:4px;">September 22, 2026 // EDITORIAL</div><div style="font-size:15px; color:#fff; font-weight:600; margin-bottom:6px;">THE DESERT LINEN LOOK</div><span style="font-size:9px; padding:3px 10px; border-radius:12px; background:rgba(0,100,200,0.08); border:1px solid rgba(0,140,255,0.1); color:var(--cyan); letter-spacing:1px;">#SUMMER LUXE</span></div></a>
-    <a href="posts/post-008.html" style="display:block; background:rgba(10,22,45,0.95); border:1px solid rgba(0,100,200,0.12); border-radius:10px; overflow:hidden; text-decoration:none; color:inherit; transition:all 0.2s; margin-bottom:12px;" onmouseover="this.style.borderColor='rgba(0,180,255,0.3)'" onmouseout="this.style.borderColor='rgba(0,100,200,0.12)'"><div style="height:180px; background-image:url(https://image.pollinations.ai/prompt/DSLR%20camera%20photography%2C%20Canon%20EOS%20R5%2C%2085mm%20f/1.2%20lens%2C%20professional%20studio%20lighting%2C%20softbox%20and%20rim%20light%2C%20shallow%20depth%20of%20field%2C%20bokeh%20background%2C%20high%20resolution%208K%2C%20sharp%20focus%20on%20subject%2C%20fashion%20editorial%20shot%2C%20Vogue%20style%2C%20fashion%20model%2C%20professional%20photoshoot%2C%20handsome%20male%20fashion%20model%2C%20full%20body%20shot%20wearing%20teal%20blue%20velvet%20smoking%20jacket%2C%20black%20silk%20shirt%2C%20black%20trousers%2C%20black%20velvet%20slippers%2C%20dark%20grey%20studio%20backdrop%2C%20dramatic%20side%20lighting?width=1024&height=1024&seed=594003&nologo=true&enhance=true); background-size:cover; background-position:center top;"></div><div style="padding:16px;"><div style="font-size:10px; color:var(--dim); letter-spacing:1px; margin-bottom:4px;">September 21, 2026 // EDITORIAL</div><div style="font-size:15px; color:#fff; font-weight:600; margin-bottom:6px;">THE TEAL VELVET SMOKING</div><span style="font-size:9px; padding:3px 10px; border-radius:12px; background:rgba(0,100,200,0.08); border:1px solid rgba(0,140,255,0.1); color:var(--cyan); letter-spacing:1px;">#EVENING LUXE</span></div></a>
-    <a href="posts/post-008.html" style="display:block; background:rgba(10,22,45,0.95); border:1px solid rgba(0,100,200,0.12); border-radius:10px; overflow:hidden; text-decoration:none; color:inherit; transition:all 0.2s; margin-bottom:12px;" onmouseover="this.style.borderColor='rgba(0,180,255,0.3)'" onmouseout="this.style.borderColor='rgba(0,100,200,0.12)'"><div style="height:180px; background-image:url(https://image.pollinations.ai/prompt/DSLR%20camera%20photography%2C%20Canon%20EOS%20R5%2C%2085mm%20f/1.2%20lens%2C%20professional%20studio%20lighting%2C%20softbox%20and%20rim%20light%2C%20shallow%20depth%20of%20field%2C%20bokeh%20background%2C%20high%20resolution%208K%2C%20sharp%20focus%20on%20subject%2C%20fashion%20editorial%20shot%2C%20Vogue%20style%2C%20fashion%20model%2C%20professional%20photoshoot%2C%20elegant%20female%20fashion%20model%2C%20full%20body%20shot%20wearing%20beige%20linen%20suit%2C%20white%20linen%20shirt%20with%20open%20collar%2C%20brown%20leather%20loafers%2C%20tortoise%20sunglasses%2C%20dark%20grey%20studio%20backdrop%2C%20dramatic%20side%20lighting?width=1024&height=1024&seed=421233&nologo=true&enhance=true); background-size:cover; background-position:center top;"></div><div style="padding:16px;"><div style="font-size:10px; color:var(--dim); letter-spacing:1px; margin-bottom:4px;">September 20, 2026 // EDITORIAL</div><div style="font-size:15px; color:#fff; font-weight:600; margin-bottom:6px;">THE DESERT LINEN LOOK</div><span style="font-size:9px; padding:3px 10px; border-radius:12px; background:rgba(0,100,200,0.08); border:1px solid rgba(0,140,255,0.1); color:var(--cyan); letter-spacing:1px;">#SUMMER LUXE</span></div></a>
-    <a href="posts/post-008.html" style="display:block; background:rgba(10,22,45,0.95); border:1px solid rgba(0,100,200,0.12); border-radius:10px; overflow:hidden; text-decoration:none; color:inherit; transition:all 0.2s; margin-bottom:12px;" onmouseover="this.style.borderColor='rgba(0,180,255,0.3)'" onmouseout="this.style.borderColor='rgba(0,100,200,0.12)'"><div style="height:180px; background-image:url(https://image.pollinations.ai/prompt/DSLR%20camera%20photography%2C%20Canon%20EOS%20R5%2C%2085mm%20f/1.2%20lens%2C%20professional%20studio%20lighting%2C%20softbox%20and%20rim%20light%2C%20shallow%20depth%20of%20field%2C%20bokeh%20background%2C%20high%20resolution%208K%2C%20sharp%20focus%20on%20subject%2C%20fashion%20editorial%20shot%2C%20Vogue%20style%2C%20fashion%20model%2C%20professional%20photoshoot%2C%20elegant%20female%20fashion%20model%2C%20full%20body%20shot%20wearing%20olive%20green%20field%20jacket%2C%20white%20oxford%20shirt%2C%20dark%20indigo%20jeans%2C%20brown%20suede%20chukka%20boots%2C%20dark%20grey%20studio%20backdrop%2C%20dramatic%20side%20lighting?width=1024&height=1024&seed=914485&nologo=true&enhance=true); background-size:cover; background-position:center top;"></div><div style="padding:16px;"><div style="font-size:10px; color:var(--dim); letter-spacing:1px; margin-bottom:4px;">September 19, 2026 // EDITORIAL</div><div style="font-size:15px; color:#fff; font-weight:600; margin-bottom:6px;">THE OLIVE FIELD JACKET</div><span style="font-size:9px; padding:3px 10px; border-radius:12px; background:rgba(0,100,200,0.08); border:1px solid rgba(0,140,255,0.1); color:var(--cyan); letter-spacing:1px;">#SMART CASUAL</span></div></a>
-    <a href="posts/post-008.html" style="display:block; background:rgba(10,22,45,0.95); border:1px solid rgba(0,100,200,0.12); border-radius:10px; overflow:hidden; text-decoration:none; color:inherit; transition:all 0.2s; margin-bottom:12px;" onmouseover="this.style.borderColor='rgba(0,180,255,0.3)'" onmouseout="this.style.borderColor='rgba(0,100,200,0.12)'"><div style="height:180px; background-image:url(https://image.pollinations.ai/prompt/DSLR%20camera%20photography%2C%20Canon%20EOS%20R5%2C%2085mm%20f/1.2%20lens%2C%20professional%20studio%20lighting%2C%20softbox%20and%20rim%20light%2C%20shallow%20depth%20of%20field%2C%20bokeh%20background%2C%20high%20resolution%208K%2C%20sharp%20focus%20on%20subject%2C%20fashion%20editorial%20shot%2C%20Vogue%20style%2C%20fashion%20model%2C%20professional%20photoshoot%2C%20tall%20athletic%20White%20male%20model%2C%20full%20body%20shot%20wearing%20ivory%20white%20linen%20suit%2C%20pale%20blue%20dress%20shirt%2C%20brown%20leather%20belt%2C%20tan%20suede%20loafers%2C%20dark%20grey%20studio%20backdrop%2C%20dramatic%20side%20lighting?width=1024&height=1024&seed=409152&nologo=true&enhance=true); background-size:cover; background-position:center top;"></div><div style="padding:16px;"><div style="font-size:10px; color:var(--dim); letter-spacing:1px; margin-bottom:4px;">September 18, 2026 // EDITORIAL</div><div style="font-size:15px; color:#fff; font-weight:600; margin-bottom:6px;">THE IVORY DREAM</div><span style="font-size:9px; padding:3px 10px; border-radius:12px; background:rgba(0,100,200,0.08); border:1px solid rgba(0,140,255,0.1); color:var(--cyan); letter-spacing:1px;">#SUMMER WEDDING</span></div></a>
-    <a href="posts/post-008.html" style="display:block; background:rgba(10,22,45,0.95); border:1px solid rgba(0,100,200,0.12); border-radius:10px; overflow:hidden; text-decoration:none; color:inherit; transition:all 0.2s; margin-bottom:12px;" onmouseover="this.style.borderColor='rgba(0,180,255,0.3)'" onmouseout="this.style.borderColor='rgba(0,100,200,0.12)'"><div style="height:180px; background-image:url(https://image.pollinations.ai/prompt/DSLR%20camera%20photography%2C%20Canon%20EOS%20R5%2C%2085mm%20f/1.2%20lens%2C%20professional%20studio%20lighting%2C%20softbox%20and%20rim%20light%2C%20shallow%20depth%20of%20field%2C%20bokeh%20background%2C%20high%20resolution%208K%2C%20sharp%20focus%20on%20subject%2C%20fashion%20editorial%20shot%2C%20Vogue%20style%2C%20fashion%20model%2C%20professional%20photoshoot%2C%20elegant%20female%20fashion%20model%2C%20full%20body%20shot%20wearing%20light%20grey%20suit%2C%20charcoal%20turtleneck%2C%20grey%20wool%20overcoat%2C%20black%20leather%20chelsea%20boots%2C%20dark%20grey%20studio%20backdrop%2C%20dramatic%20side%20lighting?width=1024&height=1024&seed=994981&nologo=true&enhance=true); background-size:cover; background-position:center top;"></div><div style="padding:16px;"><div style="font-size:10px; color:var(--dim); letter-spacing:1px; margin-bottom:4px;">September 17, 2026 // EDITORIAL</div><div style="font-size:15px; color:#fff; font-weight:600; margin-bottom:6px;">THE MONOCHROME GREY</div><span style="font-size:9px; padding:3px 10px; border-radius:12px; background:rgba(0,100,200,0.08); border:1px solid rgba(0,140,255,0.1); color:var(--cyan); letter-spacing:1px;">#MINIMAL LUXURY</span></div></a>
-    <a href="posts/post-008.html" style="display:block; background:rgba(10,22,45,0.95); border:1px solid rgba(0,100,200,0.12); border-radius:10px; overflow:hidden; text-decoration:none; color:inherit; transition:all 0.2s; margin-bottom:12px;" onmouseover="this.style.borderColor='rgba(0,180,255,0.3)'" onmouseout="this.style.borderColor='rgba(0,100,200,0.12)'"><div style="height:180px; background-image:url(https://image.pollinations.ai/prompt/DSLR%20camera%20photography%2C%20Canon%20EOS%20R5%2C%2085mm%20f/1.2%20lens%2C%20professional%20studio%20lighting%2C%20softbox%20and%20rim%20light%2C%20shallow%20depth%20of%20field%2C%20bokeh%20background%2C%20high%20resolution%208K%2C%20sharp%20focus%20on%20subject%2C%20fashion%20editorial%20shot%2C%20Vogue%20style%2C%20fashion%20model%2C%20professional%20photoshoot%2C%20elegant%20female%20fashion%20model%2C%20full%20body%20shot%20wearing%20black%20leather%20biker%20jacket%2C%20white%20fitted%20t-shirt%2C%20black%20raw%20denim%20jeans%2C%20black%20chelsea%20boots%2C%20dark%20grey%20studio%20backdrop%2C%20dramatic%20side%20lighting?width=1024&height=1024&seed=137945&nologo=true&enhance=true); background-size:cover; background-position:center top;"></div><div style="padding:16px;"><div style="font-size:10px; color:var(--dim); letter-spacing:1px; margin-bottom:4px;">September 16, 2026 // EDITORIAL</div><div style="font-size:15px; color:#fff; font-weight:600; margin-bottom:6px;">THE ALL BLACK EDGE</div><span style="font-size:9px; padding:3px 10px; border-radius:12px; background:rgba(0,100,200,0.08); border:1px solid rgba(0,140,255,0.1); color:var(--cyan); letter-spacing:1px;">#EDGY MINIMAL</span></div></a>
-    <a href="posts/post-007.html" style="display:block; background:rgba(10,22,45,0.95); border:1px solid rgba(0,100,200,0.12); border-radius:10px; overflow:hidden; text-decoration:none; color:inherit; transition:all 0.2s; margin-bottom:12px;" onmouseover="this.style.borderColor='rgba(0,180,255,0.3)'" onmouseout="this.style.borderColor='rgba(0,100,200,0.12)'"><div style="height:180px; background-image:url(https://image.pollinations.ai/prompt/DSLR%20camera%20photography%2C%20Canon%20EOS%20R5%2C%2085mm%20f/1.2%20lens%2C%20professional%20studio%20lighting%2C%20softbox%20and%20rim%20light%2C%20shallow%20depth%20of%20field%2C%20bokeh%20background%2C%20high%20resolution%208K%2C%20sharp%20focus%20on%20subject%2C%20fashion%20editorial%20shot%2C%20Vogue%20style%2C%20fashion%20model%2C%20professional%20photoshoot%2C%20handsome%20South%20Asian%20male%20model%2C%20full%20body%20shot%20wearing%20grey%20windowpane%20check%20suit%2C%20white%20semi-spread%20collar%20shirt%2C%20navy%20knitted%20tie%2C%20black%20derby%20shoes%2C%20dark%20grey%20studio%20backdrop%2C%20dramatic%20side%20lighting?width=1024&height=1024&seed=76803&nologo=true&enhance=true); background-size:cover; background-position:center top;"></div><div style="padding:16px;"><div style="font-size:10px; color:var(--dim); letter-spacing:1px; margin-bottom:4px;">September 15, 2026 // EDITORIAL</div><div style="font-size:15px; color:#fff; font-weight:600; margin-bottom:6px;">THE GREY CHECK POWER</div><span style="font-size:9px; padding:3px 10px; border-radius:12px; background:rgba(0,100,200,0.08); border:1px solid rgba(0,140,255,0.1); color:var(--cyan); letter-spacing:1px;">#MODERN BUSINESS</span></div></a>
-    <a href="posts/post-006.html" style="display:block; background:rgba(10,22,45,0.95); border:1px solid rgba(0,100,200,0.12); border-radius:10px; overflow:hidden; text-decoration:none; color:inherit; transition:all 0.2s; margin-bottom:12px;" onmouseover="this.style.borderColor='rgba(0,180,255,0.3)'" onmouseout="this.style.borderColor='rgba(0,100,200,0.12)'"><div style="height:180px; background-image:url(https://image.pollinations.ai/prompt/DSLR%20camera%20photography%2C%20Canon%20EOS%20R5%2C%2085mm%20f/1.2%20lens%2C%20professional%20studio%20lighting%2C%20softbox%20and%20rim%20light%2C%20shallow%20depth%20of%20field%2C%20bokeh%20background%2C%20high%20resolution%208K%2C%20sharp%20focus%20on%20subject%2C%20fashion%20editorial%20shot%2C%20Vogue%20style%2C%20fashion%20model%2C%20professional%20photoshoot%2C%20tall%20athletic%20Black%20male%20model%2C%20full%20body%20shot%20wearing%20beige%20linen%20suit%2C%20white%20linen%20shirt%20with%20open%20collar%2C%20brown%20leather%20loafers%2C%20tortoise%20sunglasses%2C%20dark%20grey%20studio%20backdrop%2C%20dramatic%20side%20lighting?width=1024&height=1024&seed=530364&nologo=true&enhance=true); background-size:cover; background-position:center top;"></div><div style="padding:16px;"><div style="font-size:10px; color:var(--dim); letter-spacing:1px; margin-bottom:4px;">September 14, 2026 // EDITORIAL</div><div style="font-size:15px; color:#fff; font-weight:600; margin-bottom:6px;">THE DESERT LINEN LOOK</div><span style="font-size:9px; padding:3px 10px; border-radius:12px; background:rgba(0,100,200,0.08); border:1px solid rgba(0,140,255,0.1); color:var(--cyan); letter-spacing:1px;">#SUMMER LUXE</span></div></a>
-    <a href="posts/post-005.html" style="display:block; background:rgba(10,22,45,0.95); border:1px solid rgba(0,100,200,0.12); border-radius:10px; overflow:hidden; text-decoration:none; color:inherit; transition:all 0.2s; margin-bottom:12px;" onmouseover="this.style.borderColor='rgba(0,180,255,0.3)'" onmouseout="this.style.borderColor='rgba(0,100,200,0.12)'"><div style="height:180px; background-image:url(https://image.pollinations.ai/prompt/DSLR%20camera%20photography%2C%20Canon%20EOS%20R5%2C%2085mm%20f/1.2%20lens%2C%20professional%20studio%20lighting%2C%20softbox%20and%20rim%20light%2C%20shallow%20depth%20of%20field%2C%20bokeh%20background%2C%20high%20resolution%208K%2C%20sharp%20focus%20on%20subject%2C%20fashion%20editorial%20shot%2C%20Vogue%20style%2C%20fashion%20model%2C%20professional%20photoshoot%2C%20tall%20athletic%20White%20male%20model%2C%20full%20body%20shot%20wearing%20grey%20windowpane%20check%20suit%2C%20white%20semi-spread%20collar%20shirt%2C%20navy%20knitted%20tie%2C%20black%20derby%20shoes%2C%20dark%20grey%20studio%20backdrop%2C%20dramatic%20side%20lighting?width=1024&height=1024&seed=54631&nologo=true&enhance=true); background-size:cover; background-position:center top;"></div><div style="padding:16px;"><div style="font-size:10px; color:var(--dim); letter-spacing:1px; margin-bottom:4px;">September 13, 2026 // EDITORIAL</div><div style="font-size:15px; color:#fff; font-weight:600; margin-bottom:6px;">THE GREY CHECK POWER</div><span style="font-size:9px; padding:3px 10px; border-radius:12px; background:rgba(0,100,200,0.08); border:1px solid rgba(0,140,255,0.1); color:var(--cyan); letter-spacing:1px;">#MODERN BUSINESS</span></div></a>
-    <a href="posts/post-004.html" style="display:block; background:rgba(10,22,45,0.95); border:1px solid rgba(0,100,200,0.12); border-radius:10px; overflow:hidden; text-decoration:none; color:inherit; transition:all 0.2s; margin-bottom:12px;" onmouseover="this.style.borderColor='rgba(0,180,255,0.3)'" onmouseout="this.style.borderColor='rgba(0,100,200,0.12)'"><div style="height:180px; background-image:url(https://image.pollinations.ai/prompt/DSLR%20camera%20photography%2C%20Canon%20EOS%20R5%2C%2085mm%20f/1.2%20lens%2C%20professional%20studio%20lighting%2C%20softbox%20and%20rim%20light%2C%20shallow%20depth%20of%20field%2C%20bokeh%20background%2C%20high%20resolution%208K%2C%20sharp%20focus%20on%20subject%2C%20fashion%20editorial%20shot%2C%20Vogue%20style%2C%20fashion%20model%2C%20professional%20photoshoot%2C%20tall%20athletic%20Black%20male%20model%2C%20full%20body%20shot%20wearing%20grey%20windowpane%20check%20suit%2C%20white%20semi-spread%20collar%20shirt%2C%20navy%20knitted%20tie%2C%20black%20derby%20shoes%2C%20dark%20grey%20studio%20backdrop%2C%20dramatic%20side%20lighting?width=1024&height=1024&seed=774032&nologo=true&enhance=true); background-size:cover; background-position:center top;"></div><div style="padding:16px;"><div style="font-size:10px; color:var(--dim); letter-spacing:1px; margin-bottom:4px;">September 12, 2026 // EDITORIAL</div><div style="font-size:15px; color:#fff; font-weight:600; margin-bottom:6px;">THE GREY CHECK POWER</div><span style="font-size:9px; padding:3px 10px; border-radius:12px; background:rgba(0,100,200,0.08); border:1px solid rgba(0,140,255,0.1); color:var(--cyan); letter-spacing:1px;">#MODERN BUSINESS</span></div></a>
-    <a href="posts/post-003.html" style="display:block; background:rgba(10,22,45,0.95); border:1px solid rgba(0,100,200,0.12); border-radius:10px; overflow:hidden; text-decoration:none; color:inherit; transition:all 0.2s; margin-bottom:12px;" onmouseover="this.style.borderColor='rgba(0,180,255,0.3)'" onmouseout="this.style.borderColor='rgba(0,100,200,0.12)'">
-      <div style="height:160px; background-image:url(https://image.pollinations.ai/prompt/Professional%20fashion%20photography%2C%20full%20body%20shot%2C%20handsome%20South%20Asian%20male%20fashion%20model%2C%20wearing%20black%20peak%20lapel%20tuxedo%2C%20crisp%20white%20pleated%20shirt%2C%20black%20bow%20tie%2C%20patent%20leather%20shoes%2C%20luxury%20studio%20background%20with%20soft%20lighting%2C%20high-end%20fashion%20editorial%20style%2C%208k%20quality%2C%20sharp%20details%2C%20M%26WEFTCO%20branding%20aesthetic%2C%20dark%20moody%20background%20with%20gold%20accents?width=1024&height=1024&seed=964267&nologo=true); background-size:cover; background-position:center top;"></div>
-      <div style="padding:16px;">
-        <div style="font-size:10px; color:var(--dim); letter-spacing:1px; margin-bottom:4px;">September 12, 2026</div>
-        <div style="font-size:15px; color:#fff; font-weight:600;">The Classic Tuxedo</div>
+    <style>
+      .product-toolbar{
+        display:flex; gap:12px; flex-wrap:wrap; margin:28px 0 10px;
+      }
+      .product-toolbar .btn{background:transparent; cursor:pointer;}
+      .product-card{
+        position:relative; min-height:300px; padding:0; overflow:hidden;
+        border:1px solid rgba(198,166,100,.18);
+        background:linear-gradient(145deg,#151515,#090909);
+        transition:.4s;
+      }
+      .product-card:hover{transform:translateY(-5px);border-color:rgba(198,166,100,.55);}
+      .product-card img{display:block;width:100%;aspect-ratio:4/5;object-fit:cover;}
+      .product-info{padding:22px 24px 26px;}
+      .product-info small{color:#c6a664;letter-spacing:3px;font-size:9px;text-transform:uppercase;}
+      .product-info h3{margin-top:10px;font-family:"Cormorant Garamond",serif;font-size:34px;font-weight:500;}
+      .product-price{margin-top:8px;color:#d8bd82;font-size:13px;letter-spacing:1px;}
+      .product-desc{margin-top:10px;color:#aaa39a;font-size:12px;line-height:1.7;}
+      .product-actions{display:flex;gap:8px;margin-top:15px;flex-wrap:wrap;}
+      .mini-btn{border:1px solid rgba(198,166,100,.5);background:transparent;color:#d8bd82;padding:8px 12px;font-size:10px;letter-spacing:1px;cursor:pointer;}
+      .modal-backdrop{position:fixed;inset:0;background:rgba(0,0,0,.78);display:none;align-items:center;justify-content:center;z-index:3000;padding:20px;}
+      .modal-backdrop.open{display:flex;}
+      .modal{width:min(560px,100%);max-height:90vh;overflow:auto;background:#111;border:1px solid rgba(198,166,100,.35);padding:28px;}
+      .modal h3{font-family:"Cormorant Garamond",serif;font-size:34px;margin-bottom:18px;}
+      .modal label{display:block;color:#aaa39a;font-size:11px;letter-spacing:1px;margin:13px 0 6px;}
+      .modal input,.modal textarea,.modal select{width:100%;background:#080808;border:1px solid #333;color:#f4f0e8;padding:11px;font:inherit;}
+      .modal textarea{min-height:90px;resize:vertical;}
+      .modal-actions{display:flex;gap:10px;margin-top:18px;flex-wrap:wrap;}
+      .modal-actions button{cursor:pointer;}
+      .empty-products{grid-column:1/-1;color:#888;padding:30px 0;text-align:center;}
+      @media(max-width:700px){.modal{padding:20px}.product-info h3{font-size:29px}}
+    </style>
+
+    <div class="modal-backdrop" id="productModal">
+      <div class="modal">
+        <h3 id="modalTitle">Add Product</h3>
+        <form id="productForm">
+          <input type="hidden" id="productId">
+          <label>Product Name</label>
+          <input id="productName" required placeholder="Example: Signature Jacket">
+          <label>Price</label>
+          <input id="productPrice" placeholder="₹4,999">
+          <label>Category</label>
+          <select id="productCategory">
+            <option>Signature</option><option>Essentials</option><option>Tailored</option><option>Future Edit</option>
+          </select>
+          <label>Image URL</label>
+          <input id="productImage" required placeholder="images/product1.jpg">
+          <label>Description</label>
+          <textarea id="productDescription" placeholder="Product description..."></textarea>
+          <div class="modal-actions">
+            <button class="btn" type="submit">Publish to Website</button>
+            <button class="btn" type="button" id="closeModal">Cancel</button>
+          </div>
+        </form>
       </div>
-    </a>
-    <a href="posts/post-002.html" style="display:block; background:rgba(10,22,45,0.95); border:1px solid rgba(0,100,200,0.12); border-radius:10px; overflow:hidden; text-decoration:none; color:inherit; transition:all 0.2s; margin-bottom:12px;" onmouseover="this.style.borderColor='rgba(0,180,255,0.3)'" onmouseout="this.style.borderColor='rgba(0,100,200,0.12)'">
-      <div style="height:140px;  background-color:#0a1a35;"></div>
-      <div style="padding:16px;">
-        <div style="font-size:10px; color:var(--dim); letter-spacing:1px; margin-bottom:4px;">September 12, 2026</div>
-        <div style="font-size:15px; color:#fff; font-weight:600;">The Modern Sherwani</div>
-      </div>
-    </a>
-    <a href="posts/post-001.html" style="display:block; background:rgba(10,22,45,0.95); border:1px solid rgba(0,100,200,0.12); border-radius:10px; padding:16px; margin-bottom:10px; text-decoration:none; color:inherit; transition:all 0.2s;" onmouseover="this.style.borderColor='rgba(0,180,255,0.3)'" onmouseout="this.style.borderColor='rgba(0,100,200,0.12)'">
-      <div style="font-size:10px; color:var(--dim); letter-spacing:1px; margin-bottom:4px;">September 12, 2026</div>
-      <div style="font-size:14px; color:#fff; font-weight:600;">Dress Well, Feel Unstoppable</div>
-    </a>
-  </div>
-</div>
-</body>
+    </div>
+
+    <script>
+      const KEY = "mweftco_products_v1";
+      const demo = [
+        {id:"1",name:"Signature",price:"",category:"Signature",image:"images/meraj1.jpg",description:"M&WEFTCO Signature Collection."},
+        {id:"2",name:"Essentials",price:"",category:"Essentials",image:"images/meraj2.jpg",description:"M&WEFTCO Essentials Collection."},
+        {id:"3",name:"Tailored",price:"",category:"Tailored",image:"images/meraj3.jpg",description:"M&WEFTCO Tailored Collection."},
+        {id:"4",name:"Future Edit",price:"",category:"Future Edit",image:"images/meraj4.jpg",description:"M&WEFTCO Future Edit Collection."}
+      ];
+
+      function getProducts(){
+        try{
+          const p=JSON.parse(localStorage.getItem(KEY));
+          return Array.isArray(p)&&p.length ? p : demo;
+        }catch(e){return demo;}
+      }
+      function saveProducts(p){localStorage.setItem(KEY,JSON.stringify(p));}
+      function renderProducts(){
+        const grid=document.getElementById("productGrid");
+        const products=getProducts();
+        grid.innerHTML="";
+        if(!products.length){grid.innerHTML='<div class="empty-products">No products yet. Tap “Add Product”.</div>';return;}
+        products.forEach(p=>{
+          const card=document.createElement("div");
+          card.className="product-card";
+          card.innerHTML=`
+            <img src="${escapeHtml(p.image)}" alt="${escapeHtml(p.name)}" onerror="this.style.display='none'">
+            <div class="product-info">
+              <small>${escapeHtml(p.category)}</small>
+              <h3>${escapeHtml(p.name)}</h3>
+              ${p.price?`<div class="product-price">${escapeHtml(p.price)}</div>`:""}
+              ${p.description?`<div class="product-desc">${escapeHtml(p.description)}</div>`:""}
+              <div class="product-actions">
+                <button class="mini-btn" onclick="editProduct('${p.id}')">Edit</button>
+                <button class="mini-btn" onclick="deleteProduct('${p.id}')">Delete</button>
+              </div>
+            </div>`;
+          grid.appendChild(card);
+        });
+      }
+      function escapeHtml(s){
+        return String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[c]));
+      }
+      const modal=document.getElementById("productModal");
+      function openModal(p){
+        document.getElementById("modalTitle").textContent=p?"Edit Product":"Add Product";
+        document.getElementById("productId").value=p?.id||"";
+        document.getElementById("productName").value=p?.name||"";
+        document.getElementById("productPrice").value=p?.price||"";
+        document.getElementById("productCategory").value=p?.category||"Signature";
+        document.getElementById("productImage").value=p?.image||"";
+        document.getElementById("productDescription").value=p?.description||"";
+        modal.classList.add("open");
+      }
+      document.getElementById("addProductBtn").onclick=()=>openModal();
+      document.getElementById("closeModal").onclick=()=>modal.classList.remove("open");
+      document.getElementById("productForm").onsubmit=e=>{
+        e.preventDefault();
+        const products=getProducts();
+        const id=document.getElementById("productId").value || Date.now().toString();
+        const item={
+          id,
+          name:document.getElementById("productName").value.trim(),
+          price:document.getElementById("productPrice").value.trim(),
+          category:document.getElementById("productCategory").value,
+          image:document.getElementById("productImage").value.trim(),
+          description:document.getElementById("productDescription").value.trim()
+        };
+        const i=products.findIndex(x=>x.id===id);
+        if(i>=0) products[i]=item; else products.push(item);
+        saveProducts(products); renderProducts(); modal.classList.remove("open");
+      };
+      window.editProduct=id=>openModal(getProducts().find(p=>p.id===id));
+      window.deleteProduct=id=>{
+        if(confirm("Delete this product?")){
+          saveProducts(getProducts().filter(p=>p.id!==id)); renderProducts();
+        }
+      };
+      document.getElementById("resetProductsBtn").onclick=()=>{
+        if(confirm("Reset the product list to the original 4 demo products?")){
+          saveProducts(demo); renderProducts();
+        }
+      };
+      renderProducts();
+    </script>
+
+  </body>
 </html>
