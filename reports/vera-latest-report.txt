@@ -1,33 +1,33 @@
 VERA DAILY REPORT // AURELIA CONTENT AGENT
 ==================================================
-Date: November 20, 2026 | Time: 11:57 AM
+Date: November 21, 2026 | Time: 11:29 AM
 Post #: 8
-OUTFIT: THE POWER NAVY SUIT
-SUBTITLE: Boardroom Dominance
-CATEGORY: BUSINESS FORMAL
-MODEL: Black Male Model
+OUTFIT: THE CREAM TUXEDO
+SUBTITLE: Summer Black Tie
+CATEGORY: SUMMER BLACK TIE
+MODEL: White Male Model
 --------------------------------------------------
-FULL LOOK: tailored navy blue business suit, white spread collar shirt, burgundy silk tie, brown leather oxford shoes
-JACKET: navy blue tailored suit jacket with notch lapels, two-button closure, flap pockets, structured shoulders
-SHIRT: white spread collar dress shirt in crisp cotton poplin with barrel cuffs
-TIE: burgundy silk tie with subtle micro pattern, standard width 3.5 inches
-TROUSERS: navy blue flat front trousers with slim tapered fit and pressed center crease
-SHOES: dark brown leather oxford shoes with burnished toe and leather sole
-ACCESSORIES: silver tie clip, leather belt matching shoe color, minimalist silver dress watch
+FULL LOOK: cream white dinner jacket, black dress trousers, black bow tie, black patent shoes, black cummerbund
+JACKET: cream white shawl lapel dinner jacket with single button, jetted pockets, black silk lapel facing
+SHIRT: white pleated front dress shirt with wing collar and black stud buttons
+TIE: black silk self-tie bow tie in classic shape matching lapel facing
+TROUSERS: black tuxedo trousers with satin side stripe, slim fit, no belt
+SHOES: black patent leather oxford shoes with high shine and closed lacing
+ACCESSORIES: black cummerbund, white pocket square, black onyx shirt studs
 --------------------------------------------------
-FABRIC: Jacket & Trousers: Super 100s Wool | Shirt: 100% Cotton Poplin | Tie: Silk
-COLOR: Navy Blue, Pure White, Burgundy Accent, Brown Leather
-AVOID: Black shoes with navy suit, loud patterns, wrinkled shirt, mismatched belt
-OCCASION: Business Meeting, Job Interview, Corporate Event, Presentation
+FABRIC: Jacket: Lightweight Wool | Trousers: Wool with Satin Stripe | Shirt: Cotton
+COLOR: Cream White, Deep Black, Silk Sheen
+AVOID: Brown shoes, belt with tuxedo, colored accessories, short sleeves in formal setting
+OCCASION: Summer Gala, Tropical Wedding, Cruise Dinner, Resort Evening Event
 --------------------------------------------------
 STATS:
-  XP Earned Today: 79
+  XP Earned Today: 56
   AURELIA Level: 1
-  AURELIA XP: 79/100
-  Daily Reach: 1916 views
-  Total Global Reach: 1916 views
+  AURELIA XP: 56/100
+  Daily Reach: 4805 views
+  Total Global Reach: 4805 views
 ==================================================
 Message for Meraj-nim (+918929520956):
-AURELIA posted today: THE POWER NAVY SUIT (BUSINESS FORMAL)
+AURELIA posted today: THE CREAM TUXEDO (SUMMER BLACK TIE)
 Check it at: https://mweftco.github.io/mweftco/posts/post-008.html
 ==================================================
